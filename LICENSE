@@ -1,0 +1,50 @@
+# License
+
+This repository contains two kinds of material.
+
+## 1. Original ExpenseTracker code (MIT)
+
+Copyright (c) 2026 ExpenseTracker contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The MIT grant applies to original application code such as:
+
+- `backend/` (API, schemas, Gemini integration, transaction flow)
+- ExpenseTracker screens under `material-dashboard-react-pro/src/layouts/dashboards/home/`
+- Auth wiring, services, and docs added for this product
+
+It does **not** apply to Creative Tim template files.
+
+## 2. Material Dashboard 2 PRO React (Creative Tim)
+
+This project was built using [Material Dashboard 2 PRO React](https://www.creative-tim.com/product/material-dashboard-pro-react) from [Creative Tim](https://www.creative-tim.com).
+
+Those files remain copyright Creative Tim and are licensed only under the [Creative Tim EULA](https://www.creative-tim.com/license). They are **not** redistributable as a free dashboard, UI kit, or template.
+
+If you did not purchase a Creative Tim license, do not copy, run, or ship the PRO UI sources from this repo. Buy the product, then use this app as an end product per their terms.
+
+Creative Tim’s FAQ allows using a PRO product in an open-source **application** if the README names the product and links to it. This repository follows that guidance. It is not a re-release of their dashboard kit.
+
+Typical PRO-derived paths include (not exhaustive):
+
+- `material-dashboard-react-pro/src/assets/`
+- `material-dashboard-react-pro/src/components/`
+- `material-dashboard-react-pro/src/examples/`
+- `material-dashboard-react-pro/src/layouts/` except the ExpenseTracker `dashboards/home` product flow

@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Uploaded receipts and local database dumps
+backend/data/receipts/
+backend/data/receipts/**
+backend/data/backups/
+
+# Local dissertation / notes (not part of the public app)
+*.docx
+Documennt.docx
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs and OS
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Build
+material-dashboard-react-pro/build/
+coverage/

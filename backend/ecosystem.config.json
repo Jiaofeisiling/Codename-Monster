@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "codename-monster-api",
+      "script": "./src/index.js",
+      "node_args": "--es-module-specifier-resolution=node",
+      "watch": false,
+      "force": true,
+      "env": {
+        "PORT": 8080,
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
