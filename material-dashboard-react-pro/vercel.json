@@ -1,0 +1,6 @@
+{
+  "framework": "create-react-app",
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "CI=false DISABLE_ESLINT_PLUGIN=true npx react-scripts build",
+  "outputDirectory": "build"
+}
